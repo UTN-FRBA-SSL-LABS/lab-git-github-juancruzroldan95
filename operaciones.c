@@ -15,7 +15,8 @@ int restar(int a, int b) {
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
 // Esta función toma los dos parametros que recibe, y los multplica inline en el return
-int multiplicar(int a, int b) {
+// Se agregan las constantes para los parametros
+int multiplicar(const int a,const int b) {
     return a * b;
 }
 
