@@ -21,7 +21,7 @@ int multiplicar(const int a,const int b) {
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
-
+// esPar recibe 2 parametros. Verifica si el número recibido es par. Devuelve 1 si lo es, y 0 si es impar.
 int esPar(int n) {
     return (n % 2) == 0; /* version main */
 }
